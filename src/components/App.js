@@ -26,7 +26,7 @@ const App = () => {
         ) : (
           cachedPosts.map((post, index) => (
             <li key={index}>
-              <h3>{post.title}</h3>
+              <h4>{post.title}</h4>
               <p>{post.body}</p>
             </li>
           ))
